@@ -1,8 +1,8 @@
 <template>
     <div>
-        <h1>Show User</h1>
+        <h1>ข้อมูลผู้รับฝาก</h1>
         <p>ID : {{ user.id }} </p>
-        <p>ชื่อ - นามสกุล {{user.name}} - {{user.lastname}}</p>
+        <p>name : {{user.name}}    {{user.lastname}}</p>
         <p>Email : {{user.email}} </p>
         <p>Password : {{user.password}}</p>
     </div>

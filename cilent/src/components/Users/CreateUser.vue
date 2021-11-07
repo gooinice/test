@@ -1,12 +1,12 @@
 <template>
 <div>
-    <h1>Create User</h1>
+    <h1>ลงทะเบียนผู้รับฝาก</h1>
     <form v-on:submit.prevent = "createUser">
         <p>Name : <input type="text" v-model="user.name"></p>
         <p>Lastname : <input type="text" v-model="user.lastname"></p>
         <p>Email : <input type="text" v-model="user.email"></p>
         <p>Password : <input type="text" v-model="user.password"></p>
-        <p><button type="submit">Create User</button></p>
+        <p><button type="submit">บันทึกข้อมูล</button></p>
     </form>
     <hr>
     <div>
@@ -46,4 +46,5 @@ export default {
 }
 </script>
 <style scoped>
+
 </style>

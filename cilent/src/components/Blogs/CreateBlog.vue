@@ -1,12 +1,12 @@
 <template>
     <div>
-        <h1> Create Blog </h1>
+        <h1> เพิ่มข้อมูล </h1>
         <form v-on:submit.prevent = "createBlog">
-            <p>title: <input type="text" v-model="blog.title"></p>
-            <p>content: <input type="text" v-model="blog.content"></p>
-            <p>category: <input type="text" v-model="blog.category"></p>
-            <p>status: <input type="text" v-model="blog.status"></p>
-            <p><button type="submit">create blog</button></p>
+            <p>ชื่อลูกค้า: <input type="text" v-model="blog.title"></p>
+            <p>รายละเอียดรถ: <input type="text" v-model="blog.content"></p>
+            <p>วันที่ฝาก: <input type="text" v-model="blog.category"></p>
+            <p>ชื่อพนักงาน: <input type="text" v-model="blog.status"></p>
+            <p><button type="submit">บันทึกข้อมูล</button></p>
             
         </form>
     </div>

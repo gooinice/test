@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>Get all comments</h2>
+        <h2>Comments</h2>
         <!-- <p><button v-on:click="logout">Logout</button></p> -->
         <h4>จำนวน comment {{comments.length}}</h4>
         <div v-for="comment in comments" v-bind:key="comment.id">

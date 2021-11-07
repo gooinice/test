@@ -1,13 +1,13 @@
 <template>
     <div>
-        <h1> Show Blog </h1>
+        <h1> ข้อมูลรถ </h1>
             <p>id: {{ blog.id }} </p>
-            <p>title: {{ blog.title }} </p>
-            <p>content: {{ blog.content }} </p>
-            <p>category: {{ blog.category }} </p>
-            <p>status: {{ blog.status }} </p>
+            <p>ชื่อลูกค้า: {{ blog.title }} </p>
+            <p>รายละเอียดรถ: {{ blog.content }} </p>
+            <p>วันที่ฝาก: {{ blog.category }} </p>
+            <p>ชื่อพนักงาน: {{ blog.status }} </p>
             <p>
-                <button v-on:click="navigateTo('/blog/edit/'+blog.id)"> แก้ไขblog </button>
+                <button v-on:click="navigateTo('/blog/edit/'+blog.id)"> แก้ไขข้อมูล </button>
                 <button v-on:click="navigateTo('/blogs')"> กลับ </button>
             </p>
     </div>
